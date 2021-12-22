@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1007819385296",
+    "firebase_url": "https://simonline-1fbe8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "simonline-1fbe8",
+    "storage_bucket": "simonline-1fbe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007819385296:android:457250ae0ebc9b954231d5",
+        "android_client_info": {
+          "package_name": "com.example.simonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007819385296-a41tnec23i7g2bpk2k8r1j0cdkjdpqvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDnJ5o5DTT4IdYtFExSrSRtz6HT0ssoq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007819385296-a41tnec23i7g2bpk2k8r1j0cdkjdpqvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
