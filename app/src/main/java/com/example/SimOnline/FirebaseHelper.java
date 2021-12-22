@@ -23,7 +23,7 @@ public class FirebaseHelper {
     public static final String COLUMN_NAMA = "nama";
     public static final String COLUMN_ALAMAT = "alamat";
     public static final String COLUMN_NOHP = "nohp";
-    public static final String COLUMN_TGLLAHIR = "tgllahit";
+    public static final String COLUMN_TGLLAHIR = "tgllahir";
     public static final String TABLE_NAME = "mhstb";
 
     ArrayList<MhsModel> mhsList ;

@@ -56,7 +56,7 @@ public class ListMhsActivity extends AppCompatActivity {
 
                                 break;
                             case 1 :
-                                Intent intent_main = new Intent(ListMhsActivity.this, MainActivity.class);
+                                Intent intent_main = new Intent(ListMhsActivity.this, sim.class);
                                 intent_main.putExtra("mhsData", mm);
 
                                 startActivity(intent_main);
@@ -77,7 +77,7 @@ public class ListMhsActivity extends AppCompatActivity {
         fabTambah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ListMhsActivity.this, MainActivity.class));
+                startActivity(new Intent(ListMhsActivity.this, sim.class));
             }
         });
 

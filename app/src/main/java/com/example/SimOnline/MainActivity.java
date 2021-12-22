@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         EditText edusername = (EditText) findViewById(R.id.edusername);
         EditText edpassword = (EditText) findViewById(R.id.edpassword);
 
-        Button btnsumbit = (Button) findViewById(R.id. btnsumbit);
+        Button btnsubmit = (Button) findViewById(R.id.btnsubmit);
 
-        btnsumbit.setOnClickListener(new View.OnClickListener() {
+        btnsubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -33,15 +33,16 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Isian tidak valid", Toast.LENGTH_LONG).show();
                 }else{
                     // JIKA KEDUA ISIAN TELAH TERISI
-                    if ((edusername.getText().toString().trim().equals(username_valid)) && (edpassword.getText().toString().trim().equals(password_valid))) {
-                        Toast.makeText(getApplicationContext(), "Login berhasil", Toast.LENGTH_LONG).show();
+                    if ((edusername.getText().toString().trim().equals(username_valid)) && (edpassword.getText().toString().trim().equals(password_valid))
+                    ) {
+                        //Toast.makeText(getApplicationContext(), "Login Berhasil", Toast.LENGTH_SHORT).show();
 
-                        Intent intent_dasboard = new Intent (MainActivity.this, com.example.SimOnline.sim.class);
-                        intent_dasboard.putExtra("username",username_valid);
-                        startActivity(intent_dasboard);
+                        Intent intent_dashboard = new Intent(MainActivity.this, sim.class);
+                        intent_dashboard.putExtra("Username",username_valid);
+                        startActivity(intent_dashboard);
 
                     } else {
-                        Toast.makeText(getApplicationContext(), "Login gagal", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Login Gagal", Toast.LENGTH_SHORT).show();
                     }
 
                 }

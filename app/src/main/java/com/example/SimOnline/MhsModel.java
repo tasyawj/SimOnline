@@ -54,21 +54,21 @@ public class MhsModel implements Parcelable {
 
     public String getAlamat() { return alamat;    }
 
-    public void setAlamat(String kodebarang) {
-        this.alamat = kodebarang;
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
     }
 
     public String getNohp() {
         return nohp;
     }
 
-    public void setNohp(String stokbarang) {this.nohp = stokbarang;    }
+    public void setNohp(String Nohp) {this.nohp = Nohp;    }
 
     public String getTgllahir() {
         return tgllahir;
     }
 
-    public void setTgllahir(String stokbarang) {this.tgllahir = stokbarang;    }
+    public void setTgllahir(String tgllahir) {this.tgllahir = tgllahir;    }
 
 
     @Override

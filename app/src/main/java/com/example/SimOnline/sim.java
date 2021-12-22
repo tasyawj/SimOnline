@@ -30,7 +30,7 @@ public class sim extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sim);
 
         EditText edNama = (EditText) findViewById(R.id.edNama);
         EditText edAlamat = (EditText) findViewById(R.id.edAlamat);
@@ -134,7 +134,7 @@ public class sim extends AppCompatActivity {
                 if(mhsList.isEmpty()){
                     Toast.makeText(getApplicationContext(), "Belum ada data", Toast.LENGTH_SHORT).show();
                 }else{
-                    Intent intent_list = new Intent(com.example.SimOnline.sim.this, ListMhsActivity.class);
+                    Intent intent_list = new Intent(sim.this, ListMhsActivity.class);
                     intent_list.putParcelableArrayListExtra("mhsList", mhsList);
                     startActivity(intent_list);
                 }

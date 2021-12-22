@@ -11,7 +11,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cvItem"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="115dp"
         app:cardBackgroundColor="#FBF0D2">
 
         <LinearLayout
@@ -53,4 +53,5 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 </LinearLayout>
